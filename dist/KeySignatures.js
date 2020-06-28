@@ -54,6 +54,7 @@ var KeySignatureEnum = /** @class */ (function (_super) {
         _this.Csharp = new KeySignature('C#', '', KeyType.SHARP, 1);
         _this.Dsharp = new KeySignature('D#', '', KeyType.SHARP, 3);
         _this.Gsharp = new KeySignature('G#', '', KeyType.SHARP, 8);
+        _this.Asharp = new KeySignature('A#', '', KeyType.SHARP, 10);
         _this.initEnum('KeySignature');
         return _this;
     }

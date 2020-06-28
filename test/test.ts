@@ -99,6 +99,9 @@ describe('Transposer', () => {
 
     expect(transpose(C_MAJOR).toKey('G#').toString())
       .to.equal('G# A# C C# D# F G G#');
+
+    expect(transpose(C_MAJOR).toKey('A#').toString())
+      .to.equal('A# C D D# F G A A#');
   });
 
   it ("The correct scales should be returned for each minor key signature", () => {

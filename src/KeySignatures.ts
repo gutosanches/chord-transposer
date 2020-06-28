@@ -63,6 +63,9 @@ class KeySignatureEnum extends Enum<KeySignature> {
   Gsharp: KeySignature =
     new KeySignature('G#', '', KeyType.SHARP, 8);
 
+  Asharp: KeySignature =
+    new KeySignature('A#', '', KeyType.SHARP, 10);
+
   constructor() {
     super();
     this.initEnum('KeySignature');
